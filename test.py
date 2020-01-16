@@ -10,3 +10,6 @@ def test_three():
 
 def test_five():
     assert Fizzbuzz.value_of(5) == "Buzz"
+
+def test_fifteen():
+    assert Fizzbuzz.value_of(15) == "FizzBuzz"
