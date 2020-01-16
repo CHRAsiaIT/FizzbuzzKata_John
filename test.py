@@ -4,3 +4,6 @@ def test_one():
 
 def test_two():
     assert Fizzbuzz.value_of(2) == 2
+
+def test_three():
+    assert Fizzbuzz.value_of(3) == "Fizz"
